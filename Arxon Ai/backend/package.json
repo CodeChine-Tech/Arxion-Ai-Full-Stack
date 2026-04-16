@@ -1,0 +1,23 @@
+{
+  "name": "arxon-backend",
+  "version": "1.0.0",
+  "description": "Arxon AI Backend - Vercel Serverless API",
+  "type": "module",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step needed'",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.103.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.3.2",
+    "nodemailer": "^8.0.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

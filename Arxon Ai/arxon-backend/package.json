@@ -1,0 +1,13 @@
+{
+  "name": "arxon-website",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix backend run dev",
+    "start": "npm --prefix backend run start"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.103.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
